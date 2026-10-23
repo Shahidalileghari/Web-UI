@@ -1,0 +1,15 @@
+:root { font-family: system-ui, sans-serif; color: #172033; background: #f3f6fb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.dashboard { width: min(76rem, calc(100% - 2rem)); margin: auto; padding-block: 2rem 4rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -.04em; margin-bottom: .5rem; }
+p, small, .metric span { color: #5c6880; }
+.eyebrow { color: #155eef; text-transform: uppercase; font-weight: 750; letter-spacing: .1em; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 1rem; margin-block: 2rem; }
+.metric, .panel { background: white; border: 1px solid #dfe6f0; border-radius: 1rem; padding: 1.25rem; }
+.metric { display: grid; gap: .45rem; }
+.metric strong { font-size: 2.4rem; }
+.content-grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(15rem, 1fr); gap: 1rem; }
+.bars { display: flex; align-items: end; gap: .75rem; height: 12rem; padding-top: 1rem; }
+.bars span { flex: 1; height: var(--bar); border-radius: .4rem .4rem 0 0; background: linear-gradient(#4c8dff, #155eef); }
+@media (max-width: 42rem) { .content-grid { grid-template-columns: 1fr; } }

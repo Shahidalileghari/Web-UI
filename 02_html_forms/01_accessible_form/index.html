@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Accessible Form</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <main class="panel">
+    <p class="eyebrow">Forms</p><h1>Join the UI workshop</h1>
+    <p>All fields marked required must be completed.</p>
+    <form id="signup-form">
+      <label for="full-name">Full name <span aria-hidden="true">*</span></label>
+      <input id="full-name" name="fullName" autocomplete="name" required minlength="2">
+      <label for="email">Email address <span aria-hidden="true">*</span></label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="level">Current level</label>
+      <select id="level" name="level"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select>
+      <label class="check"><input type="checkbox" name="updates"> Send me lesson updates</label>
+      <button type="submit">Register interest</button>
+      <p id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body></html>

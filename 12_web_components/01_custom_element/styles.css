@@ -1,0 +1,7 @@
+:root { font-family: system-ui, sans-serif; color: #182033; background: #f4f7fc; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { width: min(68rem, calc(100% - 2rem)); margin: auto; padding-block: 3rem; }
+.eyebrow { color: #155eef; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; }
+h1 { font-size: clamp(2.3rem, 6vw, 4rem); letter-spacing: -.04em; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1rem; }

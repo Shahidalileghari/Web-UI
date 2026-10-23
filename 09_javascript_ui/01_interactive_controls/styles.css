@@ -1,0 +1,12 @@
+:root { font-family: system-ui, sans-serif; color: #172033; background: #f3f6fb; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 1rem; transition: background .2s, color .2s; }
+.panel { max-width: 38rem; margin: 8vh auto; padding: 2rem; background: white; border: 1px solid #dce4f0; border-radius: 1.2rem; }
+.eyebrow { color: #155eef; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.counter { display: flex; align-items: center; gap: 1rem; margin-block: 1.5rem; }
+button { min-width: 2.8rem; padding: .7rem 1rem; border: 0; border-radius: .6rem; background: #155eef; color: white; font: inherit; font-weight: 750; cursor: pointer; margin: .25rem; }
+output { min-width: 3rem; text-align: center; font-size: 2rem; font-weight: 800; }
+.secondary { background: #e7edff; color: #1747a8; }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+body[data-theme="dark"] { color: #f3f6fc; background: #111827; }
+body[data-theme="dark"] .panel { background: #1f2937; border-color: #374151; }

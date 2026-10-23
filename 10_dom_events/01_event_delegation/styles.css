@@ -1,0 +1,14 @@
+:root { font-family: system-ui, sans-serif; color: #182033; background: #f4f7fc; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 1rem; }
+.panel { max-width: 44rem; margin: 5vh auto; padding: clamp(1.2rem, 4vw, 2.5rem); background: white; border: 1px solid #dfe6f0; border-radius: 1.2rem; }
+.eyebrow { color: #155eef; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; }
+form label { display: block; font-weight: 700; margin-block: 1rem .4rem; }
+.add-row { display: flex; gap: .5rem; }
+input { min-width: 0; flex: 1; font: inherit; padding: .75rem; border: 1px solid #aab6c8; border-radius: .6rem; }
+button { font: inherit; border: 0; border-radius: .6rem; background: #155eef; color: white; padding: .7rem .9rem; cursor: pointer; }
+ul { padding: 0; list-style: none; display: grid; gap: .65rem; }
+li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .85rem; border: 1px solid #dfe6f0; border-radius: .7rem; }
+li span { overflow-wrap: anywhere; }
+.remove { background: #fce9e9; color: #a52222; }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }

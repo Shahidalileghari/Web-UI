@@ -1,0 +1,11 @@
+:root { font-family: system-ui, sans-serif; color: #182033; background: #f6f8fc; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem max(1rem, calc((100% - 72rem)/2)); background: white; border-bottom: 1px solid #dfe6f0; }
+.logo { font-weight: 850; font-size: 1.2rem; text-decoration: none; color: inherit; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+nav a { color: #53627a; text-decoration: none; }
+.action { background: #155eef; color: white; border-radius: .65rem; padding: .65rem .9rem; text-decoration: none; font-weight: 700; }
+.hero { width: min(72rem, calc(100% - 2rem)); margin: auto; padding-block: clamp(4rem, 12vw, 9rem); }
+h1 { max-width: 14ch; font-size: clamp(2.5rem, 8vw, 5.8rem); line-height: 1.02; letter-spacing: -.05em; }
+.eyebrow { color: #155eef; font-weight: 750; text-transform: uppercase; letter-spacing: .12em; }

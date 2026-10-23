@@ -1,0 +1,12 @@
+:root { font-family: system-ui, sans-serif; color: #172033; background: #f1f5fb; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 1rem; }
+.panel { max-width: 42rem; margin: 5vh auto; background: white; padding: clamp(1.25rem, 5vw, 3rem); border: 1px solid #dce4f0; border-radius: 1.2rem; }
+.eyebrow { color: #155eef; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+label { display: block; font-weight: 700; margin-block: 1rem .4rem; }
+select, button { font: inherit; padding: .75rem; border-radius: .6rem; }
+select { width: 100%; border: 1px solid #aab6c8; background: white; }
+.choice { display: flex; align-items: center; gap: .6rem; }
+button { color: white; background: #155eef; border: 0; cursor: pointer; }
+:focus-visible { outline: 3px solid #e18b00; outline-offset: 4px; }
+p { line-height: 1.7; color: #4f5e76; }
